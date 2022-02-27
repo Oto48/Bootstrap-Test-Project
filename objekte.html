@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Test Project</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo d-flex justify-content-center align-items-center">
+        <img src="images/Logo_Marlene-Wiget_PNG.png" alt="" />
+      </div>
+      <nav class="navbar navbar-dark">
+        <div class="container d-flex justify-content-end">
+          <span class="white">Menü</span>
+          <button
+            class="btn"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="background"></div>
+    </header>
+
+    <div
+      class="offcanvas offcanvas-start"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel"
+    >
+      <div class="row d-flex">
+        <div class="col-4 d-flex justify-content-end">
+          <button
+            type="button"
+            class="btn-close btn-close-white offcanvas-title"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body col-8">
+          <p class="offcanvas-title white" id="offcanvasWithBothOptionsLabel">
+            Menü
+          </p>
+          <p><a href="#">Dienstleistungen</a></p>
+          <p><a href="#"> Suche und Vermittlung</a></p>
+          <p><a href="#"> Bauprojekte</a></p>
+          <p><a href="objekte.html"> Objekte</a></p>
+          <p><a href="index.html"> Über mich</a></p>
+          <p><a href="referenzprojekte.html"> Referenzprojekte</a></p>
+          <p><a href="#"> Zusammenarbeit</a></p>
+          <p><a href="preise.html"> Preise</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container content p-sm-5">
+      <div class="card m-auto">
+        <p class="big-font padding-bottom">Kaufobjekte</p>
+        <div class="row g-0 d-flex justify-content-between mb-5">
+          <div class="col-xl-6">
+            <img src="images/Untitled-1.png" class="img-fluid" alt="image" />
+          </div>
+          <div class="col-xl-5">
+            <div class="card-body">
+              <p class="card-title medium-font">
+                Luxuriöse 3,5 Zimmer Wohnung in Brunnen
+              </p>
+              <p class="card-text small-font">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                takimata sanctus est Lorem ipsum dolor sit amet.
+              </p>
+              <p class="card-text medium-font mb-5">
+                Kaufpreis CHF 1‘500‘000.-
+              </p>
+              <p class="card-text medium-font alert-font">ImmoScout24</p>
+              <p class="card-text medium-font alert-font">Homegate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="card m-auto">
+        <p class="big-font padding-bottom">Mietobjekte</p>
+        <div class="row g-0 d-flex justify-content-between mb-5">
+          <div class="col-xl-6">
+            <img src="images/Untitled-1.png" class="img-fluid" alt="image" />
+          </div>
+          <div class="col-xl-5">
+            <div class="card-body">
+              <p class="card-title medium-font">
+                Luxuriöse 3,5 Zimmer Wohnung in Brunnen
+              </p>
+              <p class="card-text small-font">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                takimata sanctus est Lorem ipsum dolor sit amet.
+              </p>
+              <p class="card-text medium-font mb-5">
+                Mietpreis CHF 4665.- inkl. Nebenkosten
+              </p>
+              <p class="card-text medium-font alert-font">ImmoScout24</p>
+              <p class="card-text medium-font alert-font">Homegate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container pt-5 p-sm-5">
+      <div class="row d-flex justify-content-between">
+        <div class="col-md-5 mb-5">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Kontakt</h5>
+              <p class="card-text">
+                Marlene Wiget GmbH, Immobilien<br />
+                Lustnaustrasse 27<br />
+                6417 Sattel<br />
+                056 539 15 10<br />
+                <span class="text-danger">info@bluemouse.ch</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <p class="text-md-end">
+            © 2022 Marlene Wiget GmbH, Immobilien <br />
+            Webdesign von Andreas Wiget
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
